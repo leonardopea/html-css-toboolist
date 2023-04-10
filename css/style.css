@@ -75,3 +75,38 @@ header{
 }
 
 /* fine container_2 */
+
+/* inizio lista */
+.list{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+}
+
+ul{
+    list-style-type: none;
+}
+.list_pad{
+    padding-bottom: 20px;
+}
+
+.check{
+    color: green;
+    border-radius: 80px;
+    border-color: green;
+}
+.didascalia{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* fine lista */
