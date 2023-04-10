@@ -3,48 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-#title{    /*titolo */
-    display: inline-block;
-    font-size: 40px;
-    font-family: sans-serif;
-
+body{
+    background-color: rgb(239, 236, 236);
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-#logo{
-    vertical-align: middle;
-    margin: 15px 0px 15px 15px;
-}
-
 header{
     background-color: white;
+    height: 80px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
 }
+/* ridimensiono immagine*/
+
+#immagine{
+    vertical-align: middle;
+    height: 100%;
+}
+    
+/* sposto il titolo a fianco dell'immagine e ridimensiono */
+
+#titolo{
+    display: inline-block;
+    font-size: 40px;
+    vertical-align: middle;
+    
+}
+/* inizio main */
 
 main{
-    background-color:rgb(224, 215, 215);
-}
-
-.container{
+    width: 70%;
+    margin: 40px auto;
+    height: 52px;
     background-color: white;
-    margin-top: 50px;
-    
-
+    border-radius: 3px;
 }
+
+/* fine main */
+
+/* bottoni */
 
 #button_1{
-    background-color: rgba(72, 180, 253, 0.871);
+    margin-top: 15px;
+    margin-left: 50px;
+    background-color: rgb(112, 178, 244);
     color: white;
-    border-color:rgba(72, 180, 253, 0.871) ;
+    border-color: rgb(112, 178, 244);
 }
 #button_2{
+    margin-left: 4px;
+    color: rgb(198, 195, 195);
     background-color: white;
-    color: lightgrey;
-    border-color: lightgray;
-    
+    border-color:rgb(198, 195, 195) ;
 }
-
+    
 .button{
-    font-size: 12px;
-    border-radius: 4px;
-    padding: 8px;
+    padding: 5px;
+    border-radius: 5px;
 }
